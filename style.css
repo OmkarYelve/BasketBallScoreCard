@@ -1,0 +1,84 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url("markus-spiske-BfphcCvhl6E-unsplash.jpg");
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .scorecard {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .team {
+            text-align: center;
+        }
+
+        .team-name {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 8px;
+            backdrop-filter: blur(5px);
+        }
+
+        .score-display {
+            background: #831919;
+            width: 257px;
+            height: 200px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .score {
+            font-size: 5rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .btn {
+            background: #34495e;
+            border: 2px solid #5a6c7d;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background: #5a6c7d;
+            border-color: #7f8c8d;
+        }
+
+       
+
